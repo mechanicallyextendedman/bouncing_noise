@@ -11,7 +11,7 @@ var yoff = 0.0;
 var noiseScale = 0.05;
 
 function setup() {
-	createCanvas(800, 600);
+	createCanvas(windowWidth, windowHeight);
 	background(0);
 }
 
