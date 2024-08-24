@@ -17,7 +17,11 @@ function setup() {
 
 
 function draw() {
-	rad = width / 5;
+	if (width >= height) {
+		rad = height / 5;
+	} else {
+		rad = width / 5;
+	}
 
 	// background(0);
 	noStroke();
