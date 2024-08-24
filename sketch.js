@@ -17,7 +17,7 @@ function setup() {
 
 
 function draw() {
-
+	rad = width / 5
 
 	// background(0);
 	noStroke();
